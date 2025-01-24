@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Windows Machine": {
+      "commandName": "MsixPackage",
+      "nativeDebugging": true,
+      "environmentVariables": {
+        "LAUNCH_PROF": "Windows Machine"
+      }
+    },
+    "Self-Contained": {
+      "commandName": "Project",
+      "nativeDebugging": true,
+      "hotReloadEnabled": true,
+      "environmentVariables": {
+        "LAUNCH_PROF": "Self-Contained"
+      }
+    }
+  }
+}
